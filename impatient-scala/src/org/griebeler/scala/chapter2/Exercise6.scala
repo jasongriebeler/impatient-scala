@@ -5,14 +5,13 @@ object Exercise6 {
   def calculateUnicodeProduct(string: String) = {
     var total = 1
     for (ch <- string) {
-      val i = ch.toInt
-      total = total * i
+      total*=ch.toInt
     }
     total
   }
 
   def main(args: Array[String]): Unit = {
-    println(calculateUnicodeProduct("HELLO"))
+    println(calculateUnicodeProduct("Hello"))
 
   }
 

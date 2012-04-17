@@ -9,11 +9,4 @@ object Exercise1 {
     else 
       0
   }
-  
-   def main(args: Array[String]) {
-	  println(signum(10))
-	  println(signum(-100))
-	  println(signum(0))
-    }
-
 }
