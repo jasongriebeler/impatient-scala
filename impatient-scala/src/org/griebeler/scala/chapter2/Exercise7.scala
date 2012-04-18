@@ -1,12 +1,10 @@
 package org.griebeler.scala.chapter2
 
-object Exercise6 {
+object Exercise7 {
 
   def calculateUnicodeProduct(string: String) = {
     var total = 1
-    for (ch <- string) {
-      total*=ch.toInt
-    }
+    string.foreach(ch => total *= ch.toInt)
     total
   }
 }

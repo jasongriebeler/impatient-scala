@@ -9,4 +9,5 @@ object Exercise1 {
     else 
       0
   }
+
 }
